@@ -1,0 +1,93 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5741272200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Add tariff plan validation",
+        "description": "",
+        "id": "add-tariff-plan-feature;add-tariff-plan-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 182797500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSce()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 756353400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on add tariff button",
+            "match": {
+              "location": "AddTariffplanSteps.user_click_on_add_tariff_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 653913900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user fill up the plan details",
+            "match": {
+              "location": "AddTariffplanSteps.user_fill_up_the_plan_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 452476500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicked on submit button",
+            "match": {
+              "location": "AddTariffplanSteps.user_clicked_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48151800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be displayed congratulation message",
+            "match": {
+              "location": "AddTariffplanSteps.user_should_be_displayed_congratulation_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add Tariff Plan feature",
+    "description": "",
+    "id": "add-tariff-plan-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/AddTariffPlan.feature",
+    "tags": []
+  }
+]
