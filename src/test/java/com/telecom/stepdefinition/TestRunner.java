@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
                  //plugin ---> to generate reports
                  plugin = {"html:target","json:target/reports.json"},
                  //tags -----> to execute or skip particular scenario
-                 tags = "~@smoke",
+                 tags = "@smoke",
                  //monochrome ----> to remove unwanted symbol from console
                  monochrome = true)
 

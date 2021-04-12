@@ -1,12 +1,12 @@
 [
   {
-    "line": 2,
+    "line": 3,
     "elements": [
       {
         "before": [
           {
             "result": {
-              "duration": 5741272200,
+              "duration": 8887239900,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 5,
-        "name": "Add tariff plan validation",
+        "line": 7,
+        "name": "Add Customer by using scenario",
         "description": "",
-        "id": "add-tariff-plan-feature;add-tariff-plan-validation",
+        "id": "add-customer-flow-validation;add-customer-by-using-scenario",
         "after": [
           {
             "result": {
-              "duration": 182797500,
+              "duration": 122796300,
               "status": "passed"
             },
             "match": {
@@ -34,60 +34,65 @@
         "steps": [
           {
             "result": {
-              "duration": 756353400,
+              "duration": 787328600,
               "status": "passed"
             },
-            "line": 7,
-            "name": "user click on add tariff button",
+            "line": 9,
+            "name": "user clicks on add customer button",
             "match": {
-              "location": "AddTariffplanSteps.user_click_on_add_tariff_button()"
+              "location": "AddCustomerSteps.user_clicks_on_add_customer_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 653913900,
+              "duration": 517457400,
               "status": "passed"
             },
-            "line": 8,
-            "name": "user fill up the plan details",
+            "line": 10,
+            "name": "user fill all the details",
             "match": {
-              "location": "AddTariffplanSteps.user_fill_up_the_plan_details()"
+              "location": "AddCustomerSteps.user_fill_all_the_details()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 452476500,
+              "duration": 731235500,
               "status": "passed"
             },
-            "line": 9,
-            "name": "user clicked on submit button",
+            "line": 11,
+            "name": "user click on submit button",
             "match": {
-              "location": "AddTariffplanSteps.user_clicked_on_submit_button()"
+              "location": "AddCustomerSteps.user_click_on_submit_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 48151800,
+              "duration": 75074800,
               "status": "passed"
             },
-            "line": 10,
-            "name": "user should be displayed congratulation message",
+            "line": 12,
+            "name": "user should be displayed customer id is generated",
             "match": {
-              "location": "AddTariffplanSteps.user_should_be_displayed_congratulation_message()"
+              "location": "AddCustomerSteps.user_should_be_displayed_customer_id_is_generated()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
           }
         ]
       }
     ],
-    "name": "Add Tariff Plan feature",
+    "name": "Add customer flow validation",
     "description": "",
-    "id": "add-tariff-plan-feature",
+    "id": "add-customer-flow-validation",
     "keyword": "Feature",
-    "uri": "src/test/resources/Features/AddTariffPlan.feature",
+    "uri": "src/test/resources/Features/AddCustomer.feature",
     "tags": []
   }
 ]

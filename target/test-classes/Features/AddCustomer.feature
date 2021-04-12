@@ -1,5 +1,5 @@
 #Author: your.email@your.domain.com
-@smoke
+
 Feature: Add customer flow validation
 
 
